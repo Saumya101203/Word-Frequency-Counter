@@ -1,5 +1,13 @@
 # Word Frequency Counter
 
+## Project Made By
+
+- **Name**: Saumya Pratap Singh
+- **Institution**: IIT Patna
+- **Branch**: Artificial Intelligence & Data Science (AI&DS)
+- **Roll Number**: 2201AI35
+
+
 ## Overview
 The Word Frequency Counter is a web application that allows users to input a URL, fetch and analyze the content from that webpage, and display the most frequent words. Users can specify the number of top frequent words to retrieve, making it a useful tool for text analysis.
 
