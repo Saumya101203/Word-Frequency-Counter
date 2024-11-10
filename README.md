@@ -16,12 +16,12 @@ This project uses **React** for the frontend and **Node.js with Express** for th
 - A code editor like **Visual Studio Code**.
 
 ## Project Structure
-The zip file contains:
-Word Frequency Counter/
-├── client/          
-├── server/          
-└── README.md  
-
+The zip file contains : 
+``` Word Frequency Counter/
+├── client/          # React frontend
+├── server/          # Node.js backend
+└── README.md        # Project documentation
+```
 ## Getting Started
 
 ### 1. Extract the Project Folder
