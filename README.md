@@ -94,7 +94,7 @@ npm install express axios cheerio body-parser cors stopword
 
 ### Backend (Server-side)
 - Express.js is used for creating the API and handling requests.
-- Cheerio is used to parse HTML and extract text content from specific tags (like <p>, <h1>, etc.).
+- Cheerio is used to parse HTML and extract text content from specific tags (like `&lt;p&gt;`, `&lt;h1&gt;`, etc.).
 - Axios is used to fetch webpage content from the provided URL.
 - A simple word frequency counter is implemented, which removes stop words to keep only meaningful terms.
 ### Frontend (Client-side)
