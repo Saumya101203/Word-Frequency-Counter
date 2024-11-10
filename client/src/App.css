@@ -1,0 +1,169 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f0e5d8, #b4c6e1, #5a5b6b, #ff9a8b);
+  /* Linear gradient with a mix of soft beige, blue, gray, and pinkish tones */
+  color: #333;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+/* Centered App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  z-index: 10; /* Ensure that content stays above the background */
+}
+
+/* Header Styling */
+h1 {
+  font-size: 2.8rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+form:hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.6);
+}
+
+button {
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+/* Error message styling */
+p {
+  font-size: 1rem;
+  color: red;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Word Frequency Table Styling */
+.word-frequency-table {
+  width: 80%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.word-frequency-table th,
+.word-frequency-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.1rem;
+}
+
+.word-frequency-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.word-frequency-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.word-frequency-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.word-frequency-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Styling for the "Top N Words" input field */
+form input[type="number"] {
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+form input[type="number"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.6);
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .App {
+    padding: 20px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .word-frequency-table {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
