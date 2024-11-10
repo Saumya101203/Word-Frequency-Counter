@@ -17,7 +17,8 @@ This project uses **React** for the frontend and **Node.js with Express** for th
 
 ## Project Structure
 The zip file contains : 
-``` Word Frequency Counter/
+```
+root-directory/
 ├── client/          # React frontend
 ├── server/          # Node.js backend
 └── README.md        # Project documentation
