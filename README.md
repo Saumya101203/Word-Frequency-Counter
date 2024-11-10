@@ -108,5 +108,14 @@ npm install express axios cheerio body-parser cors stopword
 - **CORS Issues**: Make sure the backend server is running, as CORS can sometimes block requests if the server isn’t responding.
 - **URL Errors**: If the URL provided is invalid or the server cannot fetch content, you may see an error message. Ensure the URL is a valid, reachable webpage.
 
+## Glimpses of Website
+
+### Home Page
+![Home Page](https://github.com/Saumya101203/Word-Frequency-Counter/blob/main/screenshots/Home%20Page.png)
+
+### Entering URL and N value
+![Entering URL and N value](https://github.com/Saumya101203/Word-Frequency-Counter/blob/main/screenshots/Entering%20URL%20and%20N%20value.png)
+### Result for URL and value of N Entered
+![Result for URL and value of N Entered](https://github.com/Saumya101203/Word-Frequency-Counter/blob/main/screenshots/Result%20for%20URL%20and%20value%20of%20N%20Entered.png)
 
 
