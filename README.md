@@ -21,6 +21,7 @@ The zip file contains :
 root-directory/
 ├── client/          # React frontend
 ├── server/          # Node.js backend
+├── screenshots/
 └── README.md        # Project documentation
 ```
 ## Getting Started
