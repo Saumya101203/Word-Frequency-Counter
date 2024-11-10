@@ -32,45 +32,57 @@ Extract the downloaded zip file to a folder on your computer. Open this folder i
 #### Install Backend Dependencies
 1. Open a terminal.
 2. Navigate to the `server` folder by running:
+   ```
    cd root-directory/server
-
+   ```
 3. Install the required backend dependencies, including express, axios, cheerio, body-parser, cors, and stopword, by running:
-
+```
 npm install express axios cheerio body-parser cors stopword
-
+```
 #### Install Frontend Dependencies
 
 1. In the same terminal (or open a new one), navigate to the client folder by running:
+   ```
     cd ../client
-
+    ```
 2. Install the frontend dependencies with:
+   ```
      npm install
-
+   ```
 ### 3. Set Up Environment Variables
 
 #### Frontend
 1. In the client folder, create a .env file by running:
+   ```
     touch .env
+   ```
 2. Open .env in your code editor and add the following:
+   ```
     REACT_APP_API_URL=http://localhost:5001/api
-
+   ```
 ### 4. Start the Application
 
 #### Start the Backend Server
 
 1. In your terminal, navigate to the server directory if you’re not already there:
+   ```
     cd ../server
+   ```
 2. Start the backend server by running:
+```
     node index.js
-
+```
 #### Start the Frontend Development Server
 
 1. Open a new terminal window or tab
 2. Navigate to the client directory by running:
+```
     cd root-directory/client
+```
 3. Start the frontend server by running:
+```
     npm start
-
+```
 ## Usage
 
 - Enter a URL in the input field and specify the number of top frequent words you want to retrieve.
